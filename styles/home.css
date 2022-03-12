@@ -98,6 +98,7 @@ h1 {
 
 #contact-section {
   display: flex;
+  height: 30%;
   flex-direction: column;
   align-items: center;
   background-color: var(--grey900);

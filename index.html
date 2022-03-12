@@ -3,11 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&family=Palanquin:wght@400;600&family=Source+Code+Pro:ital,wght@0,200;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
     <!-- <meta name="viewport" content="width= device-width, initial-scale=1.0" /> -->
     <link href="styles/shared.css" rel="stylesheet" />
     <link href="styles/home.css" rel="stylesheet" />
-    <script src="scripts/canvas.js" defer></script>
+    <link href="styles/cv.css" rel="stylesheet" />
     <script src="scripts/app.js" defer></script>
+    <!-- <script src="scripts/server.js" defer></script> -->
+    <script src="scripts/canvas.js" defer></script>
 
     <title>Toby Austin Locke</title>
   </head>
@@ -43,15 +48,110 @@
           <div id="about-text">
         <h1>Toby Austin Locke</h1>
         <h2>Research & Technology</h2>
-        <h3><a href="" class="btn">Learn more about me</a></h3>
+        <h3><button href="" class="btn" type="button">Learn more about me</button></h3>
       </div>
+    </div>
+  </section>
+  
+    <aside id="cv-overlay" class="modal-background modal-hide">
+      <div class="modal-exit modal-hide" ><span>X</span></div>
+      <ul class= "cv modal modal-hide">
+        <li><h2>Toby Austin Locke ~ CV</h2 ></li>
+          <div id="tag-line">
+        <p>Multidisciplinary social researcher trained in anthropology and ethnographic methods. </p></div>
+        <div id="education" class="flex">
+          <div id="education-header" class="flex">
+        <li><h3>Education</h3></li>
+        <li><image id="book-logo" src="images/book-open--purple-600.svg"></image></li>
       </div>
-      </section>
+    <li id="degree-title"><p>PhD Mres BA</p> <span id="anthropology"><p>Anthropology</p></span></li>
+    <li id="university-name">
+      <p>Goldsmiths College,
+        <br>
+         University of London</p>
+        </li>
+  </div>
+        <ul id="research-teaching" class="grid">
+          <li id="research">
+          <h3>Research</h3>
+          <ul>
+          <li>
+            <p>Horizontal political movements</p>
+        </li>
+          <li>
+            <p>The commons</p>
+          </li>
+          <li>
+            <p>Urban environments</p>
+          </li>
+          <li>
+            <p>Human/non-human relations</p> 
+          </li>
+          <li>
+            <p>Conspiracy theory</p> 
+          </li> 
+          <li>
+            <p>Blockchain & Web 3.0</p>
+          </li>
+          <li>
+            <p>
+              Philosophy of death
+            </p>
+          </li>
+        </ul>
+      </li>
+          <li id="teaching"><h3>Teaching</h3>
+            <ul>
+              <li>
+                <p> Anthropology
+                </p>
+              </li>
+                <li>
+                  <p>Sociology</p>
+                </li> 
+                <li>
+                  <p>Qualitative research methods</p>
+                </li>
+                <li>
+                  <p>PPE (politics, philosophy & economics)</p>
+                </li>
+                <li>
+                  <p>Psychosocial studies</p>
+                </li> 
+                
+                <li>
+                  <p>Criminology</p>
+                </li> 
+                 
+                <li>
+                  <p>Higher education teacher training</p>
+                </li> 
+                
+                
+                   </ul>
+        </ul>
+        
+    <li><h3>Employment History</h3></li>
+    <li>
+      <h4>Lecturing</h4>
+      <span>2016 - now</span>
+      <ul class="workplace-header">
+      <li>
+      <h5>Goldsmiths College</h5>
+    </li>
+    <li><h5>Birkbeck College</h5></li>
+    <li><h5>University of Reohampton</h5></li>
+    <li><h5>London Southbank University</h5></li>
+    </li>
+  
+  </ul>
+  
+  </aside>
       <section id="portfolio-section" class="anchor">
         <h2>Portfolio</h2>
         <h3 id="portfolio-research">Research</h3>
       <ul class="portfolio-grid">
-
+      
 <li class="portfolio-card">
   <img src="/images/thefieldnx.jpg" href="">
   <a>The Field</a>

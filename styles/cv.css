@@ -1,0 +1,200 @@
+.modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 600;
+}
+
+.modal-exit {
+  z-index: 600;
+  position: fixed;
+  top: 0;
+  right: 1.1rem;
+  /* display: none; */
+}
+
+.modal-exit span {
+  font-weight: 900;
+  font-size: 2rem;
+  color: rgba(245, 245, 245, 0.918);
+  cursor: pointer;
+}
+.modal {
+  position: fixed;
+  top: 10%;
+  bottom: 10%;
+  left: 5%;
+  width: 90%;
+  background-color: rgba(245, 245, 245, 0.918);
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  z-index: 600;
+  /* display: none; */
+}
+
+.modal-hide {
+  display: none;
+}
+
+.cv {
+  list-style: none;
+  padding: 0;
+  overflow-y: auto;
+  max-height: 80%;
+}
+
+.cv li {
+  padding: 0.1rem;
+}
+
+.cv h2 {
+  list-style: none;
+  text-align: center;
+  margin: 0.8rem;
+  padding: 0.8rem;
+  font-family: "palanquin";
+  font-weight: 500;
+
+  font-size: 2.5rem;
+  /* border-bottom: 1px solid var(--purple900); */
+}
+
+#tag-line {
+  background-color: var(--purple600);
+}
+
+#tag-line p {
+  font-size: 1.6rem;
+  /* margin: 1rem 6rem; */
+  text-align: center;
+  font-family: "source code pro", monospace;
+  font-weight: 300;
+  color: var(--grey50);
+  width: 80%;
+
+  padding: 2rem;
+}
+
+#education {
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 2rem 0;
+  margin-left: 4rem;
+}
+
+#education-header {
+  flex-direction: column;
+  align-items: center;
+  justify-items: flex-end;
+}
+
+#education-header li {
+  margin: 1rem;
+}
+#education-header li h3 {
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+#book-logo {
+  margin: 0;
+  padding: 0;
+  height: 4rem;
+  width: 4rem;
+}
+
+#education h3 {
+  color: var(--grey800);
+  margin: 0 0 0 4rem;
+  padding: 0;
+}
+
+#education p {
+  font-size: 1rem;
+}
+
+#degree-title p {
+  font-family: "source code pro";
+  font-size: 1.5rem;
+}
+
+#anthropology p {
+  font-size: 3rem;
+  font-family: "palanquin";
+}
+
+#university-name p {
+  font-size: 1.25rem;
+  margin: 1rem 8rem 0 0;
+  padding: 0;
+}
+
+.cv p {
+  margin: 0 5rem;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+#research-teaching {
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr 1fr;
+  margin: 1rem;
+}
+
+#research-teaching p {
+  margin: 0 4rem;
+  padding: 0;
+}
+
+/* #research {
+}
+
+#teaching {
+  background-color: var(--purple500);
+} */
+
+.cv ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cv ul li h3 {
+  text-align: center;
+}
+
+.cv ul li p {
+  margin: 1rem 4.5rem;
+}
+
+.cv h3 {
+  margin: 1.5rem 3rem;
+  font-size: 1.5rem;
+  font-family: "source code pro", monospace;
+}
+
+.cv h4 {
+  margin: 1rem 5rem;
+  font-size: 1.5rem;
+}
+
+.workplace-header {
+  list-style: none;
+  margin: 0;
+}
+
+.workplace-header h5 {
+  margin: 0;
+  padding: 0;
+}
+
+/* #cv h3 @media (min-width: 48rem) {
+  .modal {
+    left: calc(50% - 20rem);
+    width: 40rem;
+  }
+} */

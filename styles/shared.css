@@ -1,7 +1,10 @@
+/* Utilities, Globals and Variables */
+
 :root {
   --grey50: rgb(235, 235, 235);
   --grey200: rgb(200, 200, 200);
   --grey300: rgb(158, 158, 158);
+  --grey800: rgb(78, 78, 78);
   --grey900: rgb(40, 40, 40);
   --grey950: rgba(40, 40, 40, 0.8);
 
@@ -14,7 +17,15 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "helvetica", sans-serif;
+  font-family: "palanquin", "helvetica", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 /* Nav Bar Styling */
@@ -28,7 +39,7 @@ nav {
   position: fixed;
   top: 0.5rem;
   right: 0;
-  z-index: 1000;
+  z-index: 500;
   border-bottom: solid 1px rgba(40, 40, 40, 0.8);
 }
 
@@ -141,6 +152,16 @@ nav a:hover {
 }
 
 /* Buttons */
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
 
 .btn {
   text-decoration: none;
