@@ -97,7 +97,7 @@
 }
 #education-header li h3 {
   margin: auto;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 #book-logo {
@@ -111,6 +111,8 @@
   color: var(--grey800);
   margin: 0 0 0 4rem;
   padding: 0;
+  font-family: "source code pro", monospace;
+  font-weight: 400;
 }
 
 #education p {
@@ -119,7 +121,8 @@
 
 #degree-title p {
   font-family: "source code pro";
-  font-size: 1.5rem;
+  font-weight: 300;
+  font-size: 1.8rem;
 }
 
 #anthropology p {
@@ -131,6 +134,7 @@
   font-size: 1.25rem;
   margin: 1rem 8rem 0 0;
   padding: 0;
+  font-family: "palanquin";
 }
 
 .cv p {
@@ -142,12 +146,75 @@
 #research-teaching {
   grid-auto-flow: column;
   grid-auto-columns: 1fr 1fr;
-  margin: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 2rem;
+  background-color: var(--purple600);
+}
+
+#research-teaching h3 {
+  font-size: 1.8rem;
+  padding-bottom: 1rem;
+  color: var(--grey50);
+  text-align: left;
+  font-family: "source code pro", monospace;
+  font-weight: 300;
+}
+
+#teaching-header {
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+#research-icon {
+  height: 4rem;
+  width: 4rem;
+  margin-left: 4rem;
+  justify-content: center;
+}
+
+#topics-container {
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#teaching-topics {
+  max-width: max-content;
+  flex-direction: column;
+  margin-top: -6rem;
+  margin-left: 6rem;
+  align-items: flex-start;
+  /* text-align: left; */
+}
+
+#research-header {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.research-icon-container {
+  text-align: center;
+}
+
+#research-icon {
+  height: 4rem;
+  width: 4rem;
+  margin-left: 4rem;
+  justify-content: center;
+}
+
+#research-topics {
+  max-width: max-content;
+  flex-direction: column;
+  margin-top: -5rem;
 }
 
 #research-teaching p {
   margin: 0 4rem;
   padding: 0;
+  text-align: right;
+  font-family: "palanquin";
+  color: var(--grey50);
+  font-weight: 400;
 }
 
 /* #research {
